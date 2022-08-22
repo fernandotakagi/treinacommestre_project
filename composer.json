@@ -1,0 +1,16 @@
+{
+    "name": "fmaro/treinacommestre_project",
+    "description": "Projeto Treina com Mestre e-learning",
+    "autoload": {
+        "psr-4": {
+            "Projeto\\TreinaComMestre\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fernando Mitsugi Takagi",
+            "email": "fernandotakagi23@gmail.com"
+        }
+    ],
+    "require": {}
+}
