@@ -1,5 +1,5 @@
 <?php
-$caminho = $_SERVER['PATH_INFO'];
+$caminho = $_SERVER['REQUEST_URI'];
 $rotas = require __DIR__.'/../src/Config/Rotas.php';
 
 session_start();

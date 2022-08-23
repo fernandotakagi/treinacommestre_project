@@ -5,7 +5,7 @@ class RenderizaHtml
 {
     public static function Renderiza ($nomeArquivo) {
         ob_start();
-        $caminhoArquivo = '/../../src/View/'.$nomeArquivo;
+        $caminhoArquivo = require __DIR__.'/../../src/View/'.$nomeArquivo;
         $html = ob_get_clean();
 
         return $html;
